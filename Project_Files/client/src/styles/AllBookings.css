@@ -1,0 +1,64 @@
+.user-bookingsPage {
+  padding-top: 12vh;
+  padding: 30px 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.user-bookingsPage h1 {
+  text-align: center;
+  color: #1c527e;
+  margin-bottom: 30px;
+}
+
+.user-bookings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.user-booking {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.user-booking span {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user-booking p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.user-booking b {
+  color: #1c527e;
+}
+
+.cancel-button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #bb2d3b;
+}
+
+.passenger-list ol {
+  margin: 0;
+  padding-left: 18px;
+}

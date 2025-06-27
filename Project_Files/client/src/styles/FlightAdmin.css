@@ -1,0 +1,76 @@
+.flightAdmin-page {
+  padding-top: 12vh;
+  padding: 30px 20px;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.notApproved-box {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.notApproved-box.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.admin-page-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.admin-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  width: 280px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-card h4 {
+  margin-bottom: 10px;
+  color: #1c527e;
+}
+
+.admin-card p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.admin-card button {
+  padding: 8px 16px;
+  background-color: #1c527e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-card button:hover {
+  background-color: #154060;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
